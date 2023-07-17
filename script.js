@@ -12,9 +12,9 @@ let randomImageSource2 = "images/" + randomImageDiceRandom2;
 let randomImage2 = document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);;
 
 if (randomDiceNumber > randomDiceNumber2) {
-    document.querySelector("h1").innerHTML = "O pLaYeR 1 yOu win!"
+    document.querySelector("h1").innerHTML = "O pLaYeR 1 O <br> yOu win!"
     } else if (randomDiceNumber2 > randomDiceNumber) {
-        document.querySelector("h1").innerHTML = "O PlAyEr 2 yOu win!"
+        document.querySelector("h1").innerHTML = "O PlAyEr 2 O <br> yOu win!"
         } else {
             document.querySelector("h1").innerHTML = "O DrAw! O"
         }
